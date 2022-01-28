@@ -2,6 +2,8 @@ version: v1
 lint:
   use:
     - DEFAULT
+  except:
+    - FIELD_LOWER_SNAKE_CASE  # https://docs.buf.build/lint/rules#field_lower_snake_case
 breaking:
   use:
     - FILE
