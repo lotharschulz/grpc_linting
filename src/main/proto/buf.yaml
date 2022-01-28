@@ -4,6 +4,7 @@ lint:
     - DEFAULT
   except:
     - FIELD_LOWER_SNAKE_CASE  # https://docs.buf.build/lint/rules#field_lower_snake_case
+    - SERVICE_SUFFIX          # https://docs.buf.build/lint/rules#service_suffix
 breaking:
   use:
     - FILE
