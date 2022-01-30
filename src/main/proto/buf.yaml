@@ -7,6 +7,8 @@ lint:
     - SERVICE_SUFFIX          # https://docs.buf.build/lint/rules#service_suffix
     # https://docs.buf.build/lint/rules#rpc_request_standard_name-rpc_response_standard_name-rpc_request_response_unique
     - RPC_REQUEST_STANDARD_NAME
+    # https://docs.buf.build/lint/rules#rpc_request_standard_name-rpc_response_standard_name-rpc_request_response_unique
+    - RPC_RESPONSE_STANDARD_NAME
 breaking:
   use:
     - FILE
