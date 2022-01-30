@@ -1,6 +1,7 @@
 tmux based workflow
 
 ```sh
+# tmux installation https://linuxize.com/post/getting-started-with-tmux/
 tmux
 # Ctrl-b % to split into two panes
 # Ctrl-b o to switch to original pane
