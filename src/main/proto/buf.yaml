@@ -9,6 +9,8 @@ lint:
     - RPC_REQUEST_STANDARD_NAME
     # https://docs.buf.build/lint/rules#rpc_request_standard_name-rpc_response_standard_name-rpc_request_response_unique
     - RPC_RESPONSE_STANDARD_NAME
+    # https://docs.buf.build/lint/rules#rpc_request_standard_name-rpc_response_standard_name-rpc_request_response_unique
+    - RPC_REQUEST_RESPONSE_UNIQUE
 breaking:
   use:
     - FILE
