@@ -1,5 +1,6 @@
 package info.ls.grpc
 
+import info.ls.grpc.v1.HelloServiceServer
 import io.grpc.Server
 import io.grpc.ServerBuilder
 

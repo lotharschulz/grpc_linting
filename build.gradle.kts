@@ -83,11 +83,11 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().all {
 tasks.register<JavaExec>("HelloClient") {
     dependsOn("classes")
     classpath = sourceSets["main"].runtimeClasspath
-    mainClass.set("info.ls.grpc.HelloClientKt")
+    mainClass.set("info.ls.grpc.v1.HelloClientKt")
 }
 
 val otherStartScripts = tasks.register<CreateStartScripts>("otherStartScripts") {
-    mainClass.set("info.ls.grpc.HelloClientKt")
+    mainClass.set("info.ls.grpc.v1.HelloClientKt")
     applicationName = "HelloClientKt"
     outputDir = tasks.named<CreateStartScripts>("startScripts").get().outputDir
     classpath = tasks.named<CreateStartScripts>("startScripts").get().classpath
